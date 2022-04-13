@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/React-NotesEver/static/css/main.c70eda78.css",
+    "main.js": "/React-NotesEver/static/js/main.8681bc6d.js",
+    "static/media/logo.svg": "/React-NotesEver/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/React-NotesEver/index.html",
+    "main.c70eda78.css.map": "/React-NotesEver/static/css/main.c70eda78.css.map",
+    "main.8681bc6d.js.map": "/React-NotesEver/static/js/main.8681bc6d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c70eda78.css",
+    "static/js/main.8681bc6d.js"
+  ]
+}
