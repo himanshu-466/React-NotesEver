@@ -1,13 +1,169 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+  background-color: #202040;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h1 {
+  text-align: center;
+  margin: 1rem 0.3rem;
+}
+.title {
+  color: #ff6363;
+  font-weight: 500;
+  font-size: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputdiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.input {
+  padding: 0.5rem 1rem;
+  outline: none;
+  height: 50px;
+  border-radius: 10px;
+  width: 320px;
+  margin: 0.4rem;
+  transition: 0.5px;
+  font-size: 1.15rem;
+}
+#add {
+  outline: none;
+  border: none;
+  width: 50px;
+  border-radius: 10px;
+  background-color: #ffbd69;
+  color: white;
+  cursor: pointer;
+  transition: 0.5s;
+  margin: 0.25rem;
+  height: 50px;
+  /* display: block; */
+}
+#add:hover {
+  background: #ff7d04;
+}
+
+#add i.fa-plus {
+  font-size: 30px;
+  color: white;
+}
+#save {
+  outline: none;
+  border: none;
+  width: 50px;
+  border-radius: 10px;
+  background-color: green;
+  cursor: pointer;
+  transition: 0.5s;
+  margin: 0.25rem;
+  height: 50px;
+}
+#save:hover {
+  background: white;
+}
+#save i.fa-save {
+  font-size: 30px;
+  color: white;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+.item_input {
+  background: #ddf9fc;
+  outline: none;
+  border: 3px solid #f5e2fd;
+  padding: 10px;
+  color: #000;
+  margin-top: 15px;
+  font-size: 20px;
+  width: 315px;
+}
+.remove {
+  background: none;
+  outline: none;
+  border: none;
+  color: #ff0123;
+  font-size: 2rem;
+  margin-left: 30px;
+  cursor: pointer;
+}
+.edit {
+  background: none;
+  outline: none;
+  border: none;
+  color: white;
+  font-size: 2rem;
+  margin-left: 30px;
+  cursor: pointer;
+}
+@media (max-width: 450px) {
+  .item_input {
+    background: #ddf9fc;
+    outline: none;
+    border: 2px solid #f5e2fd;
+    padding: 10px;
+    color: #000;
+    margin-top: 10px;
+    font-size: 15px;
+    width: 230px;
+  }
+  .remove {
+    background: none;
+    outline: none;
+    border: none;
+    color: #ff0123;
+    font-size: 1.5rem;
+    margin-left: 20px;
+    cursor: pointer;
+  }
+  .edit {
+    background: none;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    margin-left: 20px;
+    cursor: pointer;
+  }
+}
+.remove_btn {
+  margin-top: 35px;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #ff6363;
+  padding: 20px;
+  border-radius: 5px;
+  display: inline-block;
+  text-align: center;
+  border: none;
+  font-size: 15px;
+  transition: all 0.4s ease 0s;
+  height: 55px;
+  width: 150px;
+  cursor: pointer;
+}
+.remove_btn:hover {
+  background: #ff0123;
+  letter-spacing: 1px;
+  transition: all 0.4s ease 0s;
+  box-shadow: 5px 40px -10px rgba(0, 0, 0, 0.57);
 }
